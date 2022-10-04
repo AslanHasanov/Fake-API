@@ -17,8 +17,20 @@
   height: 40vh;
   -o-object-fit: contain;
      object-fit: contain;
+  transition: 0.7s;
 }
 #list .card .card-text {
   overflow: hidden;
   height: 20px;
+}
+
+.photo:hover img {
+  transform: scale(1.1);
+}
+
+.logo {
+  width: 20%;
+}
+.logo img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
