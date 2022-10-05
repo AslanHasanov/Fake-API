@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0%;
     box-sizing: border-box;
+   
 }
 #list{
     .card{
-       height: 400px;
+       height: 450px;
        margin: 15px 0;
+       border-radius: 20px;
         .photo{
             height: 100%;
             overflow: hidden;
@@ -15,6 +17,7 @@
                 height: 40vh;
                object-fit: contain;
                transition: .7s;
+               border-radius: 20px;
             }
         }
         .card-text{
@@ -32,4 +35,7 @@
     img{
         width: 100%;
     }
+}
+body{
+    background: linear-gradient(to right, #fbd786,#f7797d);
 }
